@@ -83,6 +83,100 @@ codeblock {
   margin: 12px 32px 6px 0;
   padding: 12px 14px; }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.helo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem; }
+
+ol {
+  border: 2px black solid;
+  padding: 30px;
+  margin: auto;
+  width: 100%;
+  font-size: 1rem;
+  font-style: italic; }
+
+.rank {
+  text-align: left;
+  font-size: 2rem;
+  padding: 10px;
+  border: solid black 2px; }
+
+.streams {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.artist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.main {
+  display: flex;
+  justify-content: space-between; }
+
+.song-page {
+  border: 2px solid black;
+  width: 25%;
+  height: 35%;
+  border-radius: 20px;
+  box-shadow: gray;
+  padding: 20px; }
+
+.song-page:hover {
+  background-color: gray; }
+
+.song-page--title {
+  text-align: center;
+  font-size: 3rem;
+  width: 100%; }
+
+.song-page--artist {
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+  width: 100%; }
+
+.song-page--stream-count {
+  text-align: center;
+  font-size: 3rem;
+  width: 100%; }
+
+.bruh {
+  background-color: lightcyan; }
+
+.head {
+  font-size: 3rem;
+  font-style: italic; }
+
+.genre {
+  font-style: italic;
+  font-size: 2rem; }
+
+.details {
+  color: black;
+  font-size: 1rem; }
+
 body {
   background: #fafafa;
   display: flex;

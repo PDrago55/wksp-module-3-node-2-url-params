@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.helo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+ol{
+    border: 2px black solid;
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.rank{
+    text-align: left;
+    font-size: 2rem;
+    padding: 10px;
+    border: solid black 2px;
+}
+
+.streams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.artist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+}
