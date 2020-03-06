@@ -1,0 +1,12 @@
+<!-- <h3 class="helo">Top 50 Swear Words I Never Insert in My Code :)</h3> -->
+<p>
+  <% top50.forEach((rank, i) => { %>
+  <ol class="container">
+      <li class="rank">#<%= i+1 %></li>
+      <li class="streams">(<%- rank.streams %>) </li> 
+      <li class="title"><%- rank.title %> By:</li> 
+      <li class="artist"><%- rank.artist %> </li>
+      <li class="date"><%- rank.publicationDate %></li>
+    </ol>
+  <% }) %>
+</p>

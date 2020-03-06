@@ -1,0 +1,14 @@
+<p>
+  <% top50.forEach((rank, i) => { %>
+    <% if (song.rank == number){%> 
+  <ol class="container">
+      <li class="rank">#<%= i+1 %></li>
+      <li class="streams">(<%- rank.streams %>) </li> 
+      <li class="title"><%- rank.title %> By:</li> 
+      <li class="artist"><%- rank.artist %> </li>
+      <li class="date"><%- rank.publicationDate %></li>
+    </ol>
+  <% }}) %>
+
+</p>
+

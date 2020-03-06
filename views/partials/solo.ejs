@@ -1,0 +1,14 @@
+
+    <ol class ="bruh">
+        <li class="head"><%- book.title %> </li>
+        <li class="genre"><%- book.type %> </li>
+        <div>
+            <li class="details">
+                <a href="/books/<%-book.id%>">
+                    <img src="<%-book.imgUrl%>"/>
+                </li>
+        </div>
+        <li class="details"><%-book.author %> </li>  
+        <li class="details"><%-book.description%></li>      
+    </ol>
+

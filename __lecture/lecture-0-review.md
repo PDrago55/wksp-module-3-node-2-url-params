@@ -31,11 +31,7 @@ What notation do we use to run JS snippets inside of an `.ejs` file?
 
 ```js
 // Example
-<ul>
-    array.forEach(element => {
-        <li>element</li>
-    });
-</ul>
+<ul>array.forEach(element => {<li>element</li>});</ul>
 ```
 
 ---
@@ -48,7 +44,14 @@ What notation do we use to run JS snippets inside of an `.ejs` file?
 
 ```js
 // Example
+const express = require("express");
+const app = express();
 
+app.get(path, function(req, res) {
+  respond.send("Hello");
+});
+
+app.listen(8000), console.log("server is up!");
 ```
 
 ---

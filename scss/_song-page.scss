@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.song-page{
+    border: 2px solid black;
+    width: 25%;
+    height: 35%;
+    border-radius: 20px;
+    box-shadow: gray;
+    padding: 20px;
+}
+
+.song-page:hover{
+    background-color: gray;
+}
+.song-page--title{
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.song-page--artist {
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    width: 100%;
+}
+
+.song-page--stream-count{
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+
+}
